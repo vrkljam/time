@@ -32,3 +32,17 @@
       0 0 50px #77ff4d, 0 0 60px #77ff4d, 0 0 70px #77ff4d, 0 0 80px #77ff4d;
   }
 }
+
+.moment {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  color: rgb(181, 16, 16);
+  border: 2px solid blue;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2em;
+}
