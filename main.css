@@ -1,0 +1,23 @@
+.clock {
+  background-color: rgb(149, 0, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#date {
+  font-weight: 900;
+}
+
+#time {
+  font-weight: 900;
+  color: greenyellow;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
