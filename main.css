@@ -21,3 +21,14 @@
   text-align: center;
   animation: glow 1.5s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 10px 0 10px #fff, 0 0 20px #fff, 0 0 30px #4d6bff,
+      0 0 40px #4d6bff, 0 0 50px #4d6bff, 0 0 60px #4d6bff, 0 0 70px #4d6bff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #77ff4d, 0 0 40px #77ff4d,
+      0 0 50px #77ff4d, 0 0 60px #77ff4d, 0 0 70px #77ff4d, 0 0 80px #77ff4d;
+  }
+}
