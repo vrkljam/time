@@ -1,25 +1,18 @@
 .clock {
   background-color: rgb(149, 0, 255);
+  max-width: 80rem;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#date {
-  font-weight: 900;
-}
-
-#time {
-  font-weight: 900;
-  color: greenyellow;
-}
-
 .glow {
-  font-size: 60px;
+  font-size: 4rem;
   color: #fff;
   text-align: center;
-  animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 5s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -33,16 +26,11 @@
   }
 }
 
-.moment {
-  height: 100px;
-  width: 200px;
-  background-color: black;
-  color: rgb(181, 16, 16);
-  border: 2px solid blue;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2em;
+@media all and (max-width: 900px) {
+  .glow {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    animation: none;
+  }
 }

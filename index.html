@@ -3,33 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Time</title>
-    <!-- <link rel="icon" href="favicon1.ico" /> -->
-    <link rel="icon" href="mvicon.ico" />
     <link rel="stylesheet" href="main.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
-      integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <title>Document</title>
   </head>
   <body>
     <div class="clock glow">
-      <p id="date">date</p>
-      <p id="time">Time</p>
+      <span>Boulder==> <span id="boulder"></span></span>
+      <span> Sydney==><span id="aussie"></span></span>
     </div>
-
-    <div class="moment">10:00AM</div>
-    <!-- <script src="script.js"></script> -->
-    <script src="moment.js"></script>
-    <script>
-      const digi = document.getElementById("moment");
-
-      setInterval(() => {
-        const now = moment();
-      }, 1000);
-      moment().format();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+[
+  {
+    "value": "AUS Eastern Standard Time",
+    "abbr": "AEST",
+    "offset": 10,
+    "isdst": false,
+    "text": "(UTC+10:00) Canberra, Melbourne, Sydney",
+
+    "utc": "UTC -03:44",
+    "timezone": "Australia/Sydney"
+  },
+  {
+    "value": "Mountain Standardsss Time",
+    "abbr": "MDT",
+    "offset": -6,
+    "isdst": true,
+    "text": "(UTC-07:00) Mountain Time (US & Canada)",
+    "utc": "UTC +4:37",
+    "timezone": "America/Denver"
+  }
+]
