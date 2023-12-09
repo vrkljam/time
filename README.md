@@ -20,5 +20,5 @@ To generate a simple app to display times on the screen, one local and one inter
 
 ---
 
-- add a calendar
-- develop an option to add other international cities
+- Add a calendar
+- Develop an option to add other international cities
