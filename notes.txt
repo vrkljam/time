@@ -1,0 +1,12 @@
+purpose: to generate an app to display times, one local and one international
+
+mvp
+-show two times on the screen, one local and one international
+-deploy with github
+-the times should glow when full screen or mostly full screen and not glow when the page is shrunk down
+
+stretch goals/future features
+- add a calendar
+- develop an option to add other international cities
+
+
