@@ -1,4 +1,4 @@
-purpose: to generate an app to display times, one local and one international
+purpose: To generate an app to display times, one local and one international using HTML,CSS, and JS
 
 mvp
 -show two times on the screen, one local and one international
