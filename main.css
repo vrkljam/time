@@ -1,5 +1,8 @@
-.clock {
+body {
   background-color: rgb(149, 0, 255);
+}
+.clock,
+.datepicker {
   max-width: 80rem;
   margin: 0 auto;
   display: flex;
@@ -33,4 +36,8 @@
     text-align: center;
     animation: none;
   }
+}
+
+.datepicker {
+  font-size: larger;
 }

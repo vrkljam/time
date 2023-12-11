@@ -1,9 +1,6 @@
-const allzone = document.getElementById("allzone");
-const localDate = document.getElementById("local-date");
-const intTime = document.getElementById("int-time");
-const intTime2 = document.getElementById("int-time2");
 const boulder = document.getElementById("boulder");
 const aussie = document.getElementById("aussie");
+const datepicker = document.querySelector(".datepicker");
 
 function interTime() {
   let x = new Date();
@@ -25,3 +22,5 @@ function interTime() {
 setInterval(() => {
   interTime(), 1000;
 });
+
+M.Datepicker.init(datepicker);
