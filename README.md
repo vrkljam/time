@@ -1,12 +1,10 @@
 # TimeTimeTime
 
-## [TimeTimeTime] https://vrkljam.github.io/time/
+## [TimeTimeTime] (https://vrkljam.github.io/time/)
 
 ### Description
 
----
-
-To generate a simple app to display times on the screen, one local and one international using HTML,CSS, and JS
+---To generate a simple app to display times on the screen, one local and one international using HTML,CSS, and JS
 
 ### MVP
 
